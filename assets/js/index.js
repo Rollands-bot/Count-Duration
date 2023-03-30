@@ -19,9 +19,9 @@ function getData () {
     }
     
 
-    const myMail = "mrwahyudiyanto@gmail.com"
+    const gmail = "mrwahyudiyanto@gmail.com"
     let a = document.createElement("a")
-    a.href = `mailto:${myMail}?subject=${subject}&body= Hallo nama saya ${name}, saya ingin ${message}, bisakah anda menghubungi saya di ${phone}`
+    a.href = `mailto:${gmail}?subject=${subject}&body= Hallo nama saya ${name}, saya ingin ${message}, bisakah anda menghubungi saya di ${phone}`
     a.click()
 
  
