@@ -24,13 +24,6 @@ function getData () {
     a.href = `mailto:${gmail}?subject=${subject}&body= Hallo nama saya ${name}, saya ingin ${message}, bisakah anda menghubungi saya di ${phone}`
     a.click()
 
- 
-    // console.log(name)
-    // console.log(email)
-    // console.log(phone)
-    // console.log(subject)
-    // console.log(message)
-
     let data = {
         nama: name,
         email: email,
@@ -39,6 +32,6 @@ function getData () {
         pesan: message,
     }
 
-    
+  
     console.log(data)
 }
